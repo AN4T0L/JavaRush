@@ -226,7 +226,7 @@ public class Arcanoid
     {
         this.height = height;
     }
-
+    Integer x = Integer.MAX_VALUE;
     public static Arcanoid game;
 
     public static void main(String[] args) throws Exception

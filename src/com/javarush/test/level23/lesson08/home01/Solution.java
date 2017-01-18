@@ -21,9 +21,9 @@
 //*/
 //public class Solution {
 //    public static void main(String[] args) {
-//        Solution solution = new Solution();
-//        print(solution.getUsers());
-//        print(solution.getLocations());
+//        Solution Solution = new Solution();
+//        print(Solution.getUsers());
+//        print(Solution.getLocations());
 //    }
 //
 //    public static void print(List list) {

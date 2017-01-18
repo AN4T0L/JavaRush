@@ -17,7 +17,6 @@ public class Solution
      */
     public static void main(String[] args) throws InterruptedException {
         CustomThreadManipulator manipulator = new TaskManipulator();
-        
 
         manipulator.start("first");
         Thread.sleep(150);

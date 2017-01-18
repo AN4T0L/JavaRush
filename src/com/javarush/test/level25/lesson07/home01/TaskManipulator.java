@@ -7,10 +7,10 @@ public class TaskManipulator implements Runnable,CustomThreadManipulator {
     @Override
     public void run() {
         try{while(!thread.isInterrupted())
-                {
-                Thread.sleep(0);
-                System.out.println(threadName);
-                Thread.sleep(90);}
+        {
+            Thread.sleep(0);
+            System.out.println(threadName);
+            Thread.sleep(90);}
         }
         catch (InterruptedException e){}
 
